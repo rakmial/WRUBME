@@ -17,7 +17,7 @@ _This Ruby script writes README.md files using command line prompts to streamlin
 
 ## Known Bugs
 
-_The function setup_next_step is a little troublesome, but we're making progress_
+The function setup_next_step() was being a bit tricky, but it works now.
 
 ## Support and contact details
 
