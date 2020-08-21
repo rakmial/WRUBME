@@ -4,15 +4,17 @@ def setup_next_step
   puts "Okay, so they've cloned your repo. What steps do they have"
   puts "to do next to get it working?"
   last = false
+  rvary = []
   while !last
     next_step = gets.chomp
     puts "Another step? (y/n)"
     another = gets.chomp
     if another == "n"
-      last = True
+      last = true
     end
-    return "* #{next_step}"
+    rvary.append("* #{next_step} \n")
   end
+  rvary
 end
 
 

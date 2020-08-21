@@ -4,16 +4,16 @@
 
 ## Description
 
-_This Ruby script writes README.md files to streamline git biz. (Write + Ruby + README)_
+_This Ruby script writes README.md files using command line prompts to streatrivial git projects (Write + Ruby + README)_
 
 ## Setup/Installation Requirements
 
 * Clone this repo.
-* Add the directory with WRUBME.rb to your PATH to make it available anywhere.
+["* Add the dir with WRUBME.rb to PATH \n", "* cd into dir with git project \n", "* run 'ruby WRUBME.rb' on command line \n", "* follow the prompts \n", "* Voila! A README.md is born. Hope you like GNU GPL v3! \n"]
 
 ## Known Bugs
 
-_The function setup_next_step isn't looping correctly, I suspect due to using return._
+_setup_next_step is pretty hacky but I think it works now_
 
 ## Support and contact details
 
@@ -21,7 +21,7 @@ rakmial@gmail.com
 
 ## Technologies Used
 
-_Just Ruby._
+_Ruby_
 
 ### License
 
