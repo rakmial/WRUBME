@@ -1,20 +1,21 @@
 #!/usr/bin/env ruby
 
 def setup_next_step
-  puts "Okay, so they've cloned your repo. What steps do they have"
-  puts "to do next to get it working?"
+  #allows for an arbitrary number of steps to setup section
+  puts "Okay, you have a user and they just cloned your repo."
   last = false
   rvary = []
   while !last
+    puts "What do they do next?"
     next_step = gets.chomp
     puts "Another step? (y/n)"
     another = gets.chomp
     if another == "n"
       last = true
     end
-    rvary.append("* #{next_step} \n")
+    rvary.append("* #{next_step}")
   end
-  rvary
+  rvary.join("\n")
 end
 
 
@@ -56,7 +57,7 @@ _#{techs_used}_
 
 ### License
 
-Copyright (c) 2020 **_{Joshua Lovelace}_**
+Copyright (c) 2020 **_Joshua Lovelace_**
 This software is licensed under the GNU GPL v3 license."
 
 File.write("README.md", README_template_copy)

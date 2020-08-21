@@ -4,16 +4,20 @@
 
 ## Description
 
-_This Ruby script writes README.md files using command line prompts to streatrivial git projects (Write + Ruby + README)_
+_This Ruby script writes README.md files using command line prompts to streamline pushing trivial git projects. (WRUBME = Write + Ruby + README)_
 
 ## Setup/Installation Requirements
 
 * Clone this repo.
-["* Add the dir with WRUBME.rb to PATH \n", "* cd into dir with git project \n", "* run 'ruby WRUBME.rb' on command line \n", "* follow the prompts \n", "* Voila! A README.md is born. Hope you like GNU GPL v3! \n"]
+* Add the dir with WRUBME.rb to PATH to make it available anywhere
+* cd into the dir where your git project lives
+* run 'ruby WRUBME.md'
+* answer the prompts
+* Voila! A README.md file is generated in the same dir. Hope you like GNU GPL v3!
 
 ## Known Bugs
 
-_setup_next_step is pretty hacky but I think it works now_
+_The function setup_next_step is a little troublesome, but we're making progress_
 
 ## Support and contact details
 
@@ -25,5 +29,5 @@ _Ruby_
 
 ### License
 
-Copyright (c) 2020 **_{Joshua Lovelace}_**
+Copyright (c) 2020 **_Joshua Lovelace_**
 This software is licensed under the GNU GPL v3 license.
